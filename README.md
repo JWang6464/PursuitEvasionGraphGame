@@ -20,3 +20,24 @@ Player Algorithms:
 - MoveAwayPlayerAlgorithm: The evader moves away from the pursuer.
 - Advanced Algorithms: The game includes advanced pursuer and evader algorithms for complex strategies.
 - GraphDisplay: A visual interface showing the game state, including node positions and player movements.
+
+# How to Run the Project
+
+Run the game: The project includes a driver class to start the game with default player algorithms. To run the game, execute the driver file in your preferred IDE or command line interface.
+
+Switch to advanced algorithms: To switch to the advanced algorithms:
+
+- Open the Driver class.
+- Comment out the original MoveTowardsPlayerAlgorithm and MoveAwayPlayerAlgorithm.
+- Uncomment the lines for AdvancedPursuerAlgorithm and AdvancedEvaderAlgorithm.
+- 
+# Extensions
+This project can be extended by exploring new player algorithms, different graph topologies, and varying movement strategies. Some potential areas of future work:
+
+- Implementing reinforcement learning for player strategies.
+- Exploring the effects of different graph structures (e.g., weighted graphs, directed graphs).
+- Simulating real-world networks (e.g., road systems, social networks).
+
+# Technologies Used
+Java: The core programming language used to implement the game logic and algorithms.
+Graph Visualization: A custom-built class (GraphDisplay) for visualizing the graph and player movements.
